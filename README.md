@@ -1,71 +1,89 @@
-This project aims to analyze and predict the economic status of different states in India using machine learning models. By leveraging socio-economic indicators such as literacy rates, employment levels, GDP per capita, infrastructure indices, and other relevant features, we provide insights and visualizations to understand regional disparities and forecast economic trends.
+This project aims to **analyze and predict the economic status** of various Indian states using machine learning techniques. By leveraging socio-economic indicators such as **literacy rates**, **employment levels**, **GDP per capita**, and **infrastructure indices**, we provide insights and interactive visualizations to understand regional disparities and forecast future trends.
 
-📊 Project Overview
-The goal of this project is to:
+---
 
-Study the economic development patterns across Indian states.
+## 📊 Project Overview
 
-Build predictive models (Linear Regression, Gradient Boosting) to estimate economic performance.
+**Objectives:**
 
-Visualize the economic disparities using interactive heat maps and graphs.
+* 📈 Study economic development patterns across Indian states
+* 🤖 Build predictive models (Linear Regression, Gradient Boosting) to estimate economic performance
+* 🌐 Visualize economic disparities using **interactive heatmaps** and graphs
 
-🔧 Technologies Used
-Python
+---
 
-Pandas, NumPy, Scikit-learn for data analysis & machine learning
+## 🔧 Technologies Used
 
-Matplotlib, Seaborn, Plotly for data visualization
+* **Programming Language:** Python
+* **Libraries for ML & Analysis:** `pandas`, `numpy`, `scikit-learn`
+* **Visualization:** `matplotlib`, `seaborn`, `plotly`
+* **Geospatial Mapping:** `geopandas`, `folium`
+* **Environment:** Jupyter Notebook
 
-Jupyter Notebook
+---
 
-GeoPandas & Folium (for geographic heatmaps)
+## 🧠 Machine Learning Models
 
-🧠 Machine Learning Models
-Linear Regression: To establish a baseline model
+* **Linear Regression**: Baseline model for initial predictions
+* **Gradient Boosting Regressor**: Enhanced model for better accuracy and feature importance
+* **Evaluation Metrics**:
 
-Gradient Boosting Regressor: For better prediction performance and feature importance analysis
+  * R² Score
+  * Mean Absolute Error (MAE)
+  * Root Mean Square Error (RMSE)
 
-Evaluation using R² Score, MAE, RMSE
+---
 
-📍 Data Sources
-Government of India Open Data Portal
+## 📍 Data Sources
 
-Census of India
+* Government of India Open Data Portal
+* Census of India
+* Ministry of Statistics and Programme Implementation (MoSPI)
+* World Bank & UN datasets (where applicable)
 
-Ministry of Statistics and Programme Implementation (MoSPI)
+---
 
-World Bank & UN datasets (where applicable)
+## 📈 Visualizations
 
-📈 Visualizations
-State-wise heatmaps showing GDP, poverty rate, literacy, etc.
+* 🗺️ State-wise heatmaps: GDP, poverty rate, literacy, employment, etc.
+* 🔍 Correlation heatmaps between indicators
+* 📊 Model performance comparison charts
 
-Correlation heatmaps between economic indicators
+---
 
-Model performance comparison graphs
+## 🚀 How to Run
 
-🚀 How to Run
-Clone the repo:
+1. **Clone the repository**
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/economic-status-india.git
-cd economic-status-india
-Install dependencies:
+   ```bash
+   git clone https://github.com/aryannmishra/Economic-Status-of-India.git
+   cd Economic-Status-India
+   ```
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run the notebook:
+2. **Install dependencies**
 
-bash
-Copy
-Edit
-jupyter notebook
-🔮 Future Scope
-Incorporate real-time economic data using APIs.
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Add Deep Learning models for improved prediction accuracy.
+3. **Run the Jupyter Notebook**
 
-Develop a web dashboard for real-time visualization and interaction.
+   ```bash
+   jupyter notebook
+   ```
+
+---
+
+## 🔮 Future Scope
+
+* ⏱️ Incorporate real-time economic data using APIs
+* 🧠 Add deep learning models for advanced forecasting
+* 🖥️ Build an interactive web dashboard for live visualizations
+
+---
+
+## 👤 Author
+
+**Aryan Mishra**
+GitHub: [@aryannmishra](https://github.com/aryannmishra)
+
